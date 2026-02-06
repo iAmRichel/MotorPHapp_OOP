@@ -19,12 +19,12 @@ public abstract class Employee {
     private String position;
     private String immediateSupervisor;
     
-    protected double basicSalary;
-    protected double riceSubsidy;
-    protected double phoneAllowance;
-    protected double clothingAllowance;
-    protected double grossSemiMonthlyRate;
-    protected double hourlyRate;
+    private double basicSalary;
+    private double riceSubsidy;
+    private double phoneAllowance;
+    private double clothingAllowance;
+    private double grossSemiMonthlyRate;
+    private double hourlyRate;
 
     public Employee(String employeeId, String lastName, String firstName, String birthDate, String address, String phoneNumber, String sssNumber, String philHealthNumber, String tin, String pagIbigNumber, String status, String position, String immediateSupervisor, double basicSalary, double riceSubsidy, double phoneAllowance, double clothingAllowance, double grossSemiMonthlyRate, double hourlyRate) {
         this.employeeId = employeeId;
